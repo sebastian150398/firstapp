@@ -20,7 +20,6 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-
               children: [
                 Row(
                    children: [
@@ -46,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
+                  children: const [
                     Icon(Icons.accessibility, size:35),
                     Icon(Icons.timer, size:35),
                     Icon(Icons.phone_android, size:35),
