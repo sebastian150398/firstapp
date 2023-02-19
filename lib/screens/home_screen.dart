@@ -18,8 +18,10 @@ class HomeScreen extends StatelessWidget {
             Container(
               color: Colors.green,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("HeyHoxxxxxxxxxx"),
+                  Text("HeyHoxxxxxxxxxx  "),
+                  Text("HeyHoxxxxxxxxxx123213"),
                 ],
               ),
             ),
