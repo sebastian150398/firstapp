@@ -15,7 +15,6 @@ final List<Widget> exampleList =[
   Container(height: 20, width:20, color: Colors.green[700]),
   Container(height: 20, width:20, color: Colors.green[800]),
   Container(height: 20, width:20, color: Colors.green[900]),
-
   Container(height: 20, width:20, color: Colors.blue[50]),
   Container(height: 20, width:20, color: Colors.blue[100]),
   Container(height: 20, width:20, color: Colors.blue[200]),
