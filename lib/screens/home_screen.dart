@@ -63,10 +63,12 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: ElevatedButton(
+
         onPressed: () {  },
         child: Text("Klick mich"),
         style: ElevatedButton.styleFrom(
-          primary: Colors.black,
+          fixedSize: Size(300, 200),
+          backgroundColor: Colors.black,
           elevation: 0,
         ),
       ),
