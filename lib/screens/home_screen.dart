@@ -67,7 +67,7 @@ class MyButton extends StatelessWidget {
         onPressed: () {  },
         child: Text("Klick mich"),
         style: ElevatedButton.styleFrom(
-          fixedSize: Size(300, 200),
+
           backgroundColor: Colors.black,
           elevation: 0,
         ),
